@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Joel Boersma
+  location: Brea, CA
+  email: joelboersma@gmail.com
+  phone: tel:+1-209-247-3165
+  social_networks:
+    - network: LinkedIn
+      username: joel-boersma
+    - network: GitHub
+      username: joelboersma
+  sections:
+    experience:
+      - company: S2N Health
+        position: Senior Full-Stack Developer
+        location: Remote
+        start_date: 2024-01
+        end_date: present
+        highlights:
+          - Led implementation of several major product updates, including new features and refactors
+          - Collaborated with product managers, designers, and customer success contacts to shape the product to both user and engineering needs
+          # - Reviewed thousands of pull requests to ensure high code quality
+          - Utilized AI tools to increase output while maintaining quality of contributions
+          - Mentored software co-ops, empowering them to make significant product contributions
+      - company: S2N Health
+        position: Full-Stack Developer
+        location: Remote
+        start_date: 2022-06
+        end_date: 2023-12
+        highlights:
+          - Core contributor to a MedTech analytics product in its early stages, adding now-essential features
+          - Ported functionality to a second client, a Salesforce package, to better target enterprise clients
+      - company: E. & J. Gallo
+        position: Junior Software Developer
+        location: Modesto, CA
+        start_date: 2021-06
+        end_date: 2022-06
+        highlights:
+          - Enhanced and maintained a large-scale Ignition Perspective web app
+          - Constructed a Selenium-based Python library for automated testing of Perspective web apps
+          - Implemented CI/CD & DevOps practices for the team through GitLab
+          - Met with product owners to understand their needs and implement solutions
+    education:
+      - institution: University of California, Davis
+        area: Computer Science
+        degree: BS
+        start_date: 2017-09
+        end_date: 2021-06
+        highlights:
+          - "Relevant coursework: Web Programming, Data Structures, Algorithm Design & Analysis, Interactive Media II, Programming Languages, iOS Fundamentals, Ethics in an Age of Tech, Operating Systems"
+
+    projects:
+      - name: '[Chi Alpha Titan Christian Fellowship Website](https://xatitans.org/)'
+        start_date: 2026-07
+        end_date: present
+        highlights:
+          - Marketing site for Titan Christian Fellowship, the CSU Fullerton chapter of Chi Alpha, a national campus ministry
+          - Built almost exclusively with Claude Code and Codex, with Astro as the web framework for static site generation
+      - name: '[Spiritual Gifts Assessment](https://spiritual-gifts-assessment-sigma.vercel.app/)'
+        start_date: 2024-03
+        end_date: 2025-04
+        highlights:
+          - An online assessment for discovering one's spiritual gifts, built for Limitless Church in Woodland, CA, adapted from an existing paper assessment
+          - Built using Solid.js, Vite, Tailwind, and Testing Library
+    skills:
+      - label: Programming Languages
+        details: TypeScript/JavaScript, Python, HTML, CSS, SQL, Java, Swift, C, C++, C#
+      - label: Frameworks & Libraries
+        details: Vue, React, Lightning Web Components, Flask, FastAPI, Pytest, Vitest, Tailwind, Angular, Solid.js, Svelte, Node.js, Selenium, Spring Boot
+      - label: Tools & Software
+        details: Claude Code, Codex, Cursor, VSCode, Git, GitHub, Vite, Figma, Postman, GitLab, Docker, Zed, Salesforce, Ignition, ServiceNow
+      - label: Other
+        details: CI/CD, Agile, DevOps, Communication, Leadership
+
+design:
+  theme: engineeringresumes
